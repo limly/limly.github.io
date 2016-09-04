@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://yoursite.com/archives/index.html</loc>
+    
+    <lastmod>2016-09-03T09:28:46.601Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/index.html</loc>
+    
+    <lastmod>2016-09-03T09:28:00.921Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/categories/index.html</loc>
+    
+    <lastmod>2016-09-03T09:27:43.161Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/09/03/new-bupt-life/</loc>
+    
+    <lastmod>2016-09-03T09:01:52.685Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/07/30/hello-world/</loc>
+    
+    <lastmod>2016-08-15T03:27:45.926Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/08/14/my-new-Post/</loc>
+    
+    <lastmod>2016-08-15T01:54:53.766Z</lastmod>
+    
+  </url>
+  
+</urlset>
