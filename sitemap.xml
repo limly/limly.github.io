@@ -2,30 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://hexo.github.io/2016/09/03/new-bupt-life/</loc>
+    <loc>https://hexo.github.io/archives/index.html</loc>
     
-    <lastmod>2016-09-04T04:05:14.498Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hexo.github.io/2016/07/30/hello-world/</loc>
-    
-    <lastmod>2016-09-04T03:47:12.450Z</lastmod>
+    <lastmod>2016-09-04T04:06:36.310Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://hexo.github.io/2016/08/14/my-new-Post/</loc>
     
-    <lastmod>2016-09-04T03:46:56.450Z</lastmod>
+    <lastmod>2016-09-04T04:06:32.402Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://hexo.github.io/archives/index.html</loc>
+    <loc>https://hexo.github.io/2016/07/30/hello-world/</loc>
     
-    <lastmod>2016-09-03T09:28:46.601Z</lastmod>
+    <lastmod>2016-09-04T04:06:29.042Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hexo.github.io/2016/09/03/new-bupt-life/</loc>
+    
+    <lastmod>2016-09-04T04:06:25.858Z</lastmod>
     
   </url>
   

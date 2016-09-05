@@ -3,20 +3,21 @@
 
 
     
+    
   <url>
-    <loc>https://hexo.github.io/2016/09/03/new-bupt-life/</loc>
-    <lastmod>2016-09-04T04:05:14.498Z</lastmod>
+    <loc>https://hexo.github.io/2016/08/14/my-new-Post/</loc>
+    <lastmod>2016-09-04T04:06:32.402Z</lastmod>
     <data>
         <display>
-        <title>北邮2016级研究生开学典礼</title>
-        <pubTime>2016-09-03T08:35:24.000Z</pubTime>
+        <title>浅谈单元测试</title>
+        <pubTime>2016-08-14T10:19:02.000Z</pubTime>
         
-        <tag>北邮人</tag>
+        <tag>单元测试</tag>
          
          
            
              
-              <breadCrumb title="生活" url="https://hexo.github.io/categories/life/"/>
+              <breadCrumb title="前端" url="https://hexo.github.io/categories/front-end/"/>
           
         </display>
     </data>
@@ -25,7 +26,7 @@
     
   <url>
     <loc>https://hexo.github.io/2016/07/30/hello-world/</loc>
-    <lastmod>2016-09-04T03:47:12.450Z</lastmod>
+    <lastmod>2016-09-04T04:06:29.042Z</lastmod>
     <data>
         <display>
         <title>我的第一篇博客</title>
@@ -44,25 +45,24 @@
 
     
   <url>
-    <loc>https://hexo.github.io/2016/08/14/my-new-Post/</loc>
-    <lastmod>2016-09-04T03:46:56.450Z</lastmod>
+    <loc>https://hexo.github.io/2016/09/03/new-bupt-life/</loc>
+    <lastmod>2016-09-04T04:06:25.858Z</lastmod>
     <data>
         <display>
-        <title>浅谈单元测试</title>
-        <pubTime>2016-08-14T10:19:02.000Z</pubTime>
+        <title>北邮2016级研究生开学典礼</title>
+        <pubTime>2016-09-03T08:35:24.000Z</pubTime>
         
-        <tag>单元测试</tag>
+        <tag>北邮人</tag>
          
          
            
              
-              <breadCrumb title="前端" url="https://hexo.github.io/categories/front-end/"/>
+              <breadCrumb title="生活" url="https://hexo.github.io/categories/life/"/>
           
         </display>
     </data>
     </url>
 
-    
     
     
 </urlset>
