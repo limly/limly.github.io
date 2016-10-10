@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hexo.github.io/about/index.html</loc>
+    
+    <lastmod>2016-10-10T04:29:49.073Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://hexo.github.io/2016/10/06/lake-side-greatwall/</loc>
     
     <lastmod>2016-10-06T06:13:55.114Z</lastmod>
