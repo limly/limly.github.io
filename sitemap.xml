@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hexo.github.io/2016/10/06/lake-side-greatwall/</loc>
+    
+    <lastmod>2016-10-12T04:27:58.559Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hexo.github.io/2016/09/03/new-bupt-life/</loc>
+    
+    <lastmod>2016-10-12T04:26:57.871Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hexo.github.io/something/index.html</loc>
+    
+    <lastmod>2016-10-12T04:12:12.095Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://hexo.github.io/about/index.html</loc>
     
     <lastmod>2016-10-11T03:47:47.648Z</lastmod>
@@ -19,13 +40,6 @@
     <loc>https://hexo.github.io/2016/10/11/mongodb%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B/</loc>
     
     <lastmod>2016-10-11T03:36:46.864Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hexo.github.io/2016/10/06/lake-side-greatwall/</loc>
-    
-    <lastmod>2016-10-11T03:18:19.972Z</lastmod>
     
   </url>
   
@@ -54,13 +68,6 @@
     <loc>https://hexo.github.io/2016/07/30/hello-world/</loc>
     
     <lastmod>2016-09-04T04:06:29.042Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hexo.github.io/2016/09/03/new-bupt-life/</loc>
-    
-    <lastmod>2016-09-04T04:06:25.858Z</lastmod>
     
   </url>
   

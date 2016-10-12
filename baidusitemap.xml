@@ -3,6 +3,47 @@
 
 
     
+  <url>
+    <loc>https://hexo.github.io/2016/10/06/lake-side-greatwall/</loc>
+    <lastmod>2016-10-12T04:27:58.559Z</lastmod>
+    <data>
+        <display>
+        <title>黄花城水长城十一游记</title>
+        <pubTime>2016-10-06T03:26:48.000Z</pubTime>
+        
+        <tag>水长城 自由行</tag>
+         
+         
+           
+             
+              <breadCrumb title="游记" url="https://hexo.github.io/categories/%E6%B8%B8%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://hexo.github.io/2016/09/03/new-bupt-life/</loc>
+    <lastmod>2016-10-12T04:26:57.871Z</lastmod>
+    <data>
+        <display>
+        <title>北邮2016级研究生开学典礼</title>
+        <pubTime>2016-09-03T08:35:24.000Z</pubTime>
+        
+        <tag>北邮人</tag>
+         
+         
+           
+             
+              <breadCrumb title="生活" url="https://hexo.github.io/categories/life/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
     
   <url>
     <loc>https://hexo.github.io/2016/10/11/linux%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6/</loc>
@@ -34,26 +75,6 @@
            
              
               <breadCrumb title="数据库" url="https://hexo.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://hexo.github.io/2016/10/06/lake-side-greatwall/</loc>
-    <lastmod>2016-10-11T03:18:19.972Z</lastmod>
-    <data>
-        <display>
-        <title>黄花城水长城十一游记</title>
-        <pubTime>2016-10-06T03:26:48.000Z</pubTime>
-        
-        <tag>水长城 自由行</tag>
-         
-         
-           
-             
-              <breadCrumb title="游记" url="https://hexo.github.io/categories/%E6%B8%B8%E8%AE%B0/"/>
           
         </display>
     </data>
@@ -113,26 +134,6 @@
            
              
               <breadCrumb title="随笔" url="https://hexo.github.io/categories/diary/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://hexo.github.io/2016/09/03/new-bupt-life/</loc>
-    <lastmod>2016-09-04T04:06:25.858Z</lastmod>
-    <data>
-        <display>
-        <title>北邮2016级研究生开学典礼</title>
-        <pubTime>2016-09-03T08:35:24.000Z</pubTime>
-        
-        <tag>北邮人</tag>
-         
-         
-           
-             
-              <breadCrumb title="生活" url="https://hexo.github.io/categories/life/"/>
           
         </display>
     </data>
