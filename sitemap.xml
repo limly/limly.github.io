@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hexo.github.io/2016/10/17/webpack/</loc>
+    
+    <lastmod>2016-10-17T03:14:05.595Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://hexo.github.io/2016/10/17/javascript-object-oriented/</loc>
     
     <lastmod>2016-10-17T02:55:42.495Z</lastmod>
