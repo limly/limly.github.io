@@ -4,8 +4,26 @@
 
     
   <url>
+    <loc>https://hexo.github.io/2016/10/24/decisiontree2/</loc>
+    <lastmod>2016-10-25T06:43:14.613Z</lastmod>
+    <data>
+        <display>
+        <title>决策树学习的常见问题</title>
+        <pubTime>2016-10-24T02:43:03.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="机器学习" url="https://hexo.github.io/categories/machine-learning/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://hexo.github.io/2016/10/24/decisiontree/</loc>
-    <lastmod>2016-10-24T02:37:12.674Z</lastmod>
+    <lastmod>2016-10-24T02:42:29.110Z</lastmod>
     <data>
         <display>
         <title>浅谈决策树学习算法</title>

@@ -85,29 +85,26 @@
 
 
 
-<meta name="description" content="什么是决策树决策树是应用最广泛的归纳推理算法之一,是一种逼近离散值函数的方法,对噪声数据有良好的健壮性并且能够学习析取表达式,主要包括ID3,ASSISTANT和C4.5这些广为应用的算法
-决策树的表示方法下图所示是一棵决策树,这棵决策树根据天气情况分类”星期六上午是否适合打网球”,树上每个结点指定了对实例的每个属性的测试,叶子结点为实例所属的分类
-决策树的适用问题
-实例是由”属性-值”对来表示的">
+<meta name="description" content="决策树学习的实际问题包括:确定决策树增长的深度,处理连续值的属性,选择一个适合的属性筛选度量标准,处理属性值不完整的训练数据,处理不同代价的属性,提高计算效率.下面将会分别介绍,事实上,为了解决多数问题,ID3算法已经被扩展成为C4.5
+避免过度拟合对于一个假设,当存在其他的假设对训练样例的拟合比它差,但事实上在实例的整体分布上却表现的更好时,我们说这个假设过度拟合训练样例
+有几种途径可以被用来避">
 <meta property="og:type" content="article">
-<meta property="og:title" content="浅谈决策树学习算法">
-<meta property="og:url" content="https://hexo.github.io/2016/10/24/decisiontree/index.html">
+<meta property="og:title" content="决策树学习的常见问题">
+<meta property="og:url" content="https://hexo.github.io/2016/10/24/decisiontree2/index.html">
 <meta property="og:site_name" content="Airghc">
-<meta property="og:description" content="什么是决策树决策树是应用最广泛的归纳推理算法之一,是一种逼近离散值函数的方法,对噪声数据有良好的健壮性并且能够学习析取表达式,主要包括ID3,ASSISTANT和C4.5这些广为应用的算法
-决策树的表示方法下图所示是一棵决策树,这棵决策树根据天气情况分类”星期六上午是否适合打网球”,树上每个结点指定了对实例的每个属性的测试,叶子结点为实例所属的分类
-决策树的适用问题
-实例是由”属性-值”对来表示的">
-<meta property="og:image" content="http://oelvsay9f.bkt.clouddn.com/%E5%86%B3%E7%AD%96%E6%A0%91.gif">
-<meta property="og:image" content="http://oelvsay9f.bkt.clouddn.com/%E7%86%B5.png">
-<meta property="og:image" content="http://oelvsay9f.bkt.clouddn.com/%E4%BF%A1%E6%81%AF%E5%A2%9E%E7%9B%8A.png">
-<meta property="og:updated_time" content="2016-10-24T02:42:29.110Z">
+<meta property="og:description" content="决策树学习的实际问题包括:确定决策树增长的深度,处理连续值的属性,选择一个适合的属性筛选度量标准,处理属性值不完整的训练数据,处理不同代价的属性,提高计算效率.下面将会分别介绍,事实上,为了解决多数问题,ID3算法已经被扩展成为C4.5
+避免过度拟合对于一个假设,当存在其他的假设对训练样例的拟合比它差,但事实上在实例的整体分布上却表现的更好时,我们说这个假设过度拟合训练样例
+有几种途径可以被用来避">
+<meta property="og:image" content="http://oelvsay9f.bkt.clouddn.com/%E8%A7%84%E5%88%99%E5%90%8E%E4%BF%AE%E5%89%AA.png">
+<meta property="og:image" content="http://oelvsay9f.bkt.clouddn.com/%E5%88%86%E8%A3%82%E4%BF%A1%E6%81%AF%E5%85%AC%E5%BC%8F.png">
+<meta property="og:image" content="http://oelvsay9f.bkt.clouddn.com/%E5%A2%9E%E7%9B%8A%E6%AF%94%E7%8E%87.png">
+<meta property="og:updated_time" content="2016-10-25T06:43:14.613Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="浅谈决策树学习算法">
-<meta name="twitter:description" content="什么是决策树决策树是应用最广泛的归纳推理算法之一,是一种逼近离散值函数的方法,对噪声数据有良好的健壮性并且能够学习析取表达式,主要包括ID3,ASSISTANT和C4.5这些广为应用的算法
-决策树的表示方法下图所示是一棵决策树,这棵决策树根据天气情况分类”星期六上午是否适合打网球”,树上每个结点指定了对实例的每个属性的测试,叶子结点为实例所属的分类
-决策树的适用问题
-实例是由”属性-值”对来表示的">
-<meta name="twitter:image" content="http://oelvsay9f.bkt.clouddn.com/%E5%86%B3%E7%AD%96%E6%A0%91.gif">
+<meta name="twitter:title" content="决策树学习的常见问题">
+<meta name="twitter:description" content="决策树学习的实际问题包括:确定决策树增长的深度,处理连续值的属性,选择一个适合的属性筛选度量标准,处理属性值不完整的训练数据,处理不同代价的属性,提高计算效率.下面将会分别介绍,事实上,为了解决多数问题,ID3算法已经被扩展成为C4.5
+避免过度拟合对于一个假设,当存在其他的假设对训练样例的拟合比它差,但事实上在实例的整体分布上却表现的更好时,我们说这个假设过度拟合训练样例
+有几种途径可以被用来避">
+<meta name="twitter:image" content="http://oelvsay9f.bkt.clouddn.com/%E8%A7%84%E5%88%99%E5%90%8E%E4%BF%AE%E5%89%AA.png">
 
 
 
@@ -128,10 +125,10 @@
 
 
 
-  <link rel="canonical" href="https://hexo.github.io/2016/10/24/decisiontree/"/>
+  <link rel="canonical" href="https://hexo.github.io/2016/10/24/decisiontree2/"/>
 
 
-  <title> 浅谈决策树学习算法 | Airghc </title>
+  <title> 决策树学习的常见问题 | Airghc </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -281,7 +278,7 @@
             
             
               
-                浅谈决策树学习算法
+                决策树学习的常见问题
               
             
           </h1>
@@ -293,7 +290,7 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-10-24T09:25:40+08:00" content="2016-10-24">
+            <time itemprop="dateCreated" datetime="2016-10-24T10:43:03+08:00" content="2016-10-24">
               2016-10-24
             </time>
           </span>
@@ -323,8 +320,8 @@
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/10/24/decisiontree/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/24/decisiontree/" itemprop="commentsCount"></span>
+                <a href="/2016/10/24/decisiontree2/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/10/24/decisiontree2/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -353,29 +350,44 @@
       
 
       
-        <h3 id="什么是决策树"><a href="#什么是决策树" class="headerlink" title="什么是决策树"></a>什么是决策树</h3><p>决策树是应用最广泛的归纳推理算法之一,是一种逼近离散值函数的方法,对噪声数据有良好的健壮性并且能够学习析取表达式,主要包括ID3,ASSISTANT和C4.5这些广为应用的算法</p>
-<h3 id="决策树的表示方法"><a href="#决策树的表示方法" class="headerlink" title="决策树的表示方法"></a>决策树的表示方法</h3><p>下图所示是一棵决策树,这棵决策树根据天气情况分类”星期六上午是否适合打网球”,树上每个结点指定了对实例的每个属性的测试,叶子结点为实例所属的分类<br><img src="http://oelvsay9f.bkt.clouddn.com/%E5%86%B3%E7%AD%96%E6%A0%91.gif" alt="playTennis的决策树"></p>
-<h3 id="决策树的适用问题"><a href="#决策树的适用问题" class="headerlink" title="决策树的适用问题"></a>决策树的适用问题</h3><ul>
-<li>实例是由”属性-值”对来表示的,在最简单的决策树学习中,每个属性取少数的几个离散的值,然而后面扩展的算法也允许处理值为实数的属性</li>
-<li>目标函数具有离散的输出值,我们从上图可见决策树输出布尔型的分类,yes or no,决策树方法很容易扩展学习到有两个以上输出值的函数</li>
-<li>可能需要析取的描述,如上面指出的,决策树很自然代表了析取的表达式</li>
-<li>训练数据可以包含错误,决策树学习对错误有很好的健壮性,因为决策树不单单靠一个属性就决定叶子结点的值</li>
-<li>训练数据可以包含缺少属性值的实例,决策树可以在含有未知属性的训练集当中使用</li>
-</ul>
-<h3 id="决策树的学习算法ID3"><a href="#决策树的学习算法ID3" class="headerlink" title="决策树的学习算法ID3"></a>决策树的学习算法ID3</h3><p>ID3算法是决策树算法的核心算法,大多数已开发的决策树学习算法都是ID3算法的变体<br>ID3算法通过自顶向下构造决策树来进行学习.那么第一个问题来了.如何选取某个属性作为根节点?<br>为了解决这个问题,我们决定使用统计测试来确定每个属性单独分类训练样例的能力,然后选择能力最强的作为决策树的根节点,那么问题又来了…如何确定每个属性单独分类训练样例的能力?<br>我们先放下这个疑问,请读者思考一下.<br>现在假如我们已经找到了最强分类能力的属性A,我们把A放在根结点,然后针对A的每个可能的取值产生一个分支,把训练样例排列到对应的分支<br>现在我们在每个分支下,用该分支的训练样例再寻找分类能力最强的结点,以此类推,直到发现某个分支下所有训练样例的目标函数都相等,这也就达到了分类的目的</p>
-<h3 id="熵的概念"><a href="#熵的概念" class="headerlink" title="熵的概念"></a>熵的概念</h3><p>在决定属性的分类能力之前,先要了解一下熵的概念,这是信息论中广泛使用的一个度量标准,它刻画了任意样例集的纯度<br><img src="http://oelvsay9f.bkt.clouddn.com/%E7%86%B5.png" alt="熵的定义"></p>
-<p>所以我们发现了几个特点</p>
+        <p>决策树学习的实际问题包括:确定决策树增长的深度,处理连续值的属性,选择一个适合的属性筛选度量标准,处理属性值不完整的训练数据,处理不同代价的属性,提高计算效率.下面将会分别介绍,事实上,为了解决多数问题,ID3算法已经被扩展成为C4.5</p>
+<h3 id="避免过度拟合"><a href="#避免过度拟合" class="headerlink" title="避免过度拟合"></a>避免过度拟合</h3><p>对于一个假设,当存在其他的假设对训练样例的拟合比它差,但事实上在实例的整体分布上却表现的更好时,我们说这个假设过度拟合训练样例</p>
+<p>有几种途径可以被用来避免决策树学习中的过度拟合.他们可以被分成两类:</p>
 <ul>
-<li>熵的最大值: 即布尔型最大值为1,C个可能值的话就是log C</li>
-<li>每个取值的概率相同时熵最大</li>
+<li>及早停止增长: 在ID3算法完美分类训练数据之前就停止树增长;</li>
+<li>后修剪法: 允许树过度拟合数据,然后对这个树进行后修剪;</li>
 </ul>
-<h3 id="哪个属性是最佳属性"><a href="#哪个属性是最佳属性" class="headerlink" title="哪个属性是最佳属性"></a>哪个属性是最佳属性</h3><p>衡量一个属性价值的定量标准是什么呢,这里有一个定义叫做”信息增益”(information gain),被用来衡量给定的属性区分训练样例的能力,我们每次选取信息增益最大的属性作为决策树的结点属性<br>我们已经有了熵作为衡量训练样例集合纯度的标准,一个属性的信息增益简单的说,就是由于使用这个属性分割样例而导致的期望熵降低程度,信息增益越大,分类能力越强<br>更精确的说,一个属性A相对与样例集合S的信息增益Gain(S,A)被定义为:<br><img src="http://oelvsay9f.bkt.clouddn.com/%E4%BF%A1%E6%81%AF%E5%A2%9E%E7%9B%8A.png" alt="信息增益的定义"></p>
-<h3 id="决策树的归纳偏置"><a href="#决策树的归纳偏置" class="headerlink" title="决策树的归纳偏置"></a>决策树的归纳偏置</h3><p>ID3算法用什么策略从观测到的训练数据泛化以分类未见实例呢? 这个前提,也被称为归纳偏置,近似的ID3算法的归纳偏置为: 较短的树比较长的树优先<br>概括来讲,ID3算法的搜索策略是:</p>
+<p>尽管第一种方法看起来很厉害的样子,但我们想精确的估计何时停止增长很困难,实际中广泛采用的是第二种思想<br>不过无论使用哪种方法,一个关键的问题是使用什么样的准则来确定最终正确树的规模,解决这个问题的方法包括:</p>
 <ul>
-<li>优先选择较短的树而不是较长的</li>
-<li>选择那些信息增益高的属性离根节点较近的树</li>
+<li>使用与训练样例不同的一套分离的样例,来评估通过后修剪方法从树上修剪结点的效用</li>
+<li>使用所有可用数据进行训练,但进行统计测试来估计扩展一个特定的节点是否有可能改善在训练集合外的实例上的性能</li>
+<li>使用一个明确的衡量标准来衡量训练样例和决策树的复杂度,当这个编码最小的时候停止树增长,这个方法基于一种启发式规则,被称为最小描述长度</li>
 </ul>
-<h3 id="为什么短的假设优先"><a href="#为什么短的假设优先" class="headerlink" title="为什么短的假设优先"></a>为什么短的假设优先</h3><p>ID3算法中优选较短的决策树的归纳偏置,它的思想来源叫做’奥卡姆剃刀’<br>奥卡姆剃刀: 优先选择拟合数据的最简单的假设<br>还有一件事,读到这里可能读者已经发现了,我们在构建决策树是采用了贪心算法的思想,即每一次选择结点时我们总会选择当前所有属性中信息增益最大的属性作为结点,这其实很有可能造成局部最优<br>关于决策树学习的常见问题,会在后面的笔记中记录</p>
+<p>上面的第一种方法,常被称为训练和验证集,可用的数据被分成两个样例集合,一个训练集合用来形成学习到的假设,一个分离的验证集合用来评估这个假设在后续的数据上的精度,这样即使学习器可能会被训练中高的随机误差和巧合性规律所误导,但是验证集合不太可能会出先同样的随机波动,所以以此来对过度拟合训练集中的虚假特征提供防护检验<br>那么如何使用验证集合来防止过度拟合??</p>
+<h4 id="方法1-错误率降低修剪"><a href="#方法1-错误率降低修剪" class="headerlink" title="方法1: 错误率降低修剪"></a>方法1: 错误率降低修剪</h4><p>考虑将树上每一个结点作为修剪的候选对象,修剪的步骤如下</p>
+<ul>
+<li>删除以此结点为根的子树</li>
+<li>使它成为叶子结点</li>
+<li>把和该结点相关联的训练样例的最常见分类赋给它</li>
+<li>最重要的是,修剪后的树对于验证集合的性能不比原来的树差时才可以删除</li>
+</ul>
+<h4 id="方法2-规则后修剪"><a href="#方法2-规则后修剪" class="headerlink" title="方法2:规则后修剪"></a>方法2:规则后修剪</h4><p>实践中,一种用来发现高精度假设的非常成功的方法为”规则后修剪”,这中修剪方法的一种变体应用在C4.5中,具体包括下面的步骤</p>
+<ul>
+<li>从训练集合推导出决策树,增长决策树直到尽可能好地拟合训练数据,允许过度拟合发生</li>
+<li>将决策树转化为等价的规则集合,方法是为从根结点到叶子结点的每条路径创建一条规则</li>
+<li>删除任何能导致估计精度提高的前件来修剪每一条规则</li>
+<li>按照修剪过的规则的估计精度对他们进行排序,并按照这样的顺序应用这些规则来分类后来的实例</li>
+</ul>
+<p>下面是关于前件后件的解释<br><img src="http://oelvsay9f.bkt.clouddn.com/%E8%A7%84%E5%88%99%E5%90%8E%E4%BF%AE%E5%89%AA.png" alt="规则后修剪"></p>
+<h3 id="合并连续值属性"><a href="#合并连续值属性" class="headerlink" title="合并连续值属性"></a>合并连续值属性</h3><p>之前说到的ID3算法是限制取离散值的属性,不过我们可以把连续值的属性分割为离散的区间集合,例如连续值属性A,算法可以动态创建一个阈值c,如果A&lt;c,那么A为真,否则A为假<br>那么问题就变成了如何去确定c?<br>对于某一个属性来说,我们无疑会选择信息增益最大的阈值,具体做法如下:</p>
+<ul>
+<li>首先按照连续属性A排序样例,然后确定目标分类不同的相邻实例</li>
+<li>于是我们产生了一组候选阈值,他们的值是A值之间的中间值</li>
+<li>计算每个候选阈值关联的信息增益,选择信息增益最大的候选阈值</li>
+</ul>
+<h3 id="属性选择的度量标准"><a href="#属性选择的度量标准" class="headerlink" title="属性选择的度量标准"></a>属性选择的度量标准</h3><p>上面说到信息增益的度量标准存在一个内在偏置,即偏袒具有较多值的属性,但是存在一个问题,太多的可能值必然会把训练样例分割成非常小的空间<br>为了避免这个不足,我们可以采用其他度量标准比如 增益比率(gain ratio),增益比率通过加入一个被称作分裂信息的项来惩罚属性,分裂信息用来衡量属性分裂数据的广度和均匀性<br><img src="http://oelvsay9f.bkt.clouddn.com/%E5%88%86%E8%A3%82%E4%BF%A1%E6%81%AF%E5%85%AC%E5%BC%8F.png" alt="分裂信息公式"><br>增益比率是用前面的信息度量和这里的分裂信息共同定义的<br><img src="http://oelvsay9f.bkt.clouddn.com/%E5%A2%9E%E7%9B%8A%E6%AF%94%E7%8E%87.png" alt="增益比率"></p>
+<h3 id="缺少属性值的训练样例"><a href="#缺少属性值的训练样例" class="headerlink" title="缺少属性值的训练样例"></a>缺少属性值的训练样例</h3><p>一种方法是取当前训练样例中该属性最常见的值,另一种方法是给每一个可能的值一个概率,通过概率的方法来计算信息增益</p>
+<h3 id="处理不同代价的属性"><a href="#处理不同代价的属性" class="headerlink" title="处理不同代价的属性"></a>处理不同代价的属性</h3><p>有的属性代价很高,比如医疗检查,涉及到所需的费用和患者的不适.对于这样的任务,我们优先考虑使用低代价属性的决策树<br>另外我们可以用信息增益除以属性代价,这样就能够让低代价的属性优先被选择</p>
 
       
     </div>
@@ -401,17 +413,13 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/10/17/webpack/" rel="next" title="webpack学习笔记">
-                <i class="fa fa-chevron-left"></i> webpack学习笔记
+              <a href="/2016/10/24/decisiontree/" rel="next" title="浅谈决策树学习算法">
+                <i class="fa fa-chevron-left"></i> 浅谈决策树学习算法
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/10/24/decisiontree2/" rel="prev" title="决策树学习的常见问题">
-                决策树学习的常见问题 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -437,8 +445,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/10/24/decisiontree/"
-           data-title="浅谈决策树学习算法" data-url="https://hexo.github.io/2016/10/24/decisiontree/">
+      <div class="ds-thread" data-thread-key="2016/10/24/decisiontree2/"
+           data-title="决策树学习的常见问题" data-url="https://hexo.github.io/2016/10/24/decisiontree2/">
       </div>
     
   </div>
@@ -559,7 +567,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#什么是决策树"><span class="nav-number">1.</span> <span class="nav-text">什么是决策树</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#决策树的表示方法"><span class="nav-number">2.</span> <span class="nav-text">决策树的表示方法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#决策树的适用问题"><span class="nav-number">3.</span> <span class="nav-text">决策树的适用问题</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#决策树的学习算法ID3"><span class="nav-number">4.</span> <span class="nav-text">决策树的学习算法ID3</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#熵的概念"><span class="nav-number">5.</span> <span class="nav-text">熵的概念</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#哪个属性是最佳属性"><span class="nav-number">6.</span> <span class="nav-text">哪个属性是最佳属性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#决策树的归纳偏置"><span class="nav-number">7.</span> <span class="nav-text">决策树的归纳偏置</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#为什么短的假设优先"><span class="nav-number">8.</span> <span class="nav-text">为什么短的假设优先</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#避免过度拟合"><span class="nav-number">1.</span> <span class="nav-text">避免过度拟合</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#方法1-错误率降低修剪"><span class="nav-number">1.1.</span> <span class="nav-text">方法1: 错误率降低修剪</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#方法2-规则后修剪"><span class="nav-number">1.2.</span> <span class="nav-text">方法2:规则后修剪</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#合并连续值属性"><span class="nav-number">2.</span> <span class="nav-text">合并连续值属性</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#属性选择的度量标准"><span class="nav-number">3.</span> <span class="nav-text">属性选择的度量标准</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#缺少属性值的训练样例"><span class="nav-number">4.</span> <span class="nav-text">缺少属性值的训练样例</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#处理不同代价的属性"><span class="nav-number">5.</span> <span class="nav-text">处理不同代价的属性</span></a></li></ol></div>
             
           </div>
         </section>
