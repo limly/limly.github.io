@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://hexo.github.io/2016/11/09/poem1/</loc>
-    <lastmod>2016-11-09T06:26:47.211Z</lastmod>
+    <lastmod>2016-11-09T06:59:07.579Z</lastmod>
     <data>
         <display>
         <title>你那么远，又那么近</title>
@@ -13,21 +13,9 @@
         
          
            
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://hexo.github.io/2016/11/04/git/</loc>
-    <lastmod>2016-11-04T14:03:29.595Z</lastmod>
-    <data>
-        <display>
-        <title>git</title>
-        <pubTime>2016-11-04T14:03:29.000Z</pubTime>
-        
-         
-           
+             
+              <breadCrumb title="生活" url="https://hexo.github.io/categories/life/"/>
+          
         </display>
     </data>
     </url>
